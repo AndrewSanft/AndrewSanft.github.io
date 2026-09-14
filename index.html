@@ -1,36 +1,52 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <meta charset="utf-8" >
-  <title>Share your Travels -- New York - Central Park</title>
+  <meta charset="utf-8">
+  <title>Andrew Sanft</title>
 </head>
-<body>
-  <h1> Share your Travels</h1>
-  <h2> New York - Central Park </h2>
-  <p>Photo by Randy Connolly</p>
-  <p>This photo of Conservatory Pond
-    <a href="http://www.centralpark.com">Central Park</a>
-    New York City was taken on Oct.22, 2011 with a
-    <strong> Canon EOS 360</strong> camera.
+<body style="font-family: Arial, sans-serif; margin: 30px;">
+
+  <!-- Header Container (Pushes buttons to top right) -->
+  <div style="display: flex; justify-content: space-between; align-items: flex-start;">
+    
+    <!-- Left Side: Name, Major, GPA -->
+    <div>
+      <h1 style="margin: 0; font-size: 2rem;">Andrew Sanft</h1>
+      <h2 style="margin: 6px 0 0 0; font-size: 1.2rem; color: #444; font-weight: normal;">
+        Senior Comp Sci Major, Minor in Management
+      </h2>
+      <p style="margin-top: 10px;"><strong>GPA</strong> - 3.6</p>
+      <p style="margin:0; white-space: nowrap;"><strong>Phone Number</strong> 508-287-8449</p>
+    </div>
+
+    
+    <div style="display: flex; gap: 8px;">
+      <a href="https://github.com/AndrewSanft" target="_blank" style="background-color: #24292e; color: white; padding: 8px 14px; text-decoration: none; border-radius: 5px; font-weight: bold; font-size: 14px;">GitHub</a>
+      <a href="https://www.linkedin.com/in/andrew-sanft-268570274/" target="_blank" style="background-color: #0a66c2; color: white; padding: 8px 14px; text-decoration: none; border-radius: 5px; font-weight: bold; font-size: 14px;">LinkedIn</a>
+      <a href="mailto:sanft2023@gmail.com" style="background-color: #2b8a3e; color: white; padding: 8px 14px; text-decoration: none; border-radius: 5px; font-weight: bold; font-size: 14px;">Email</a>
+    </div>
+
+  </div>
+
+  <hr style="margin: 20px 0; border: none; border-top: 1px solid #ccc;">
+
+  <!-- Coursework Section -->
+  <p><strong>Current Classes this semester</strong></p>
+  <p style="line-height: 1.6;">
+    <strong>335 Web development</strong><br>
+    <strong>390 Software Engineering</strong><br>
+    <strong>Econ 101 Principles of Microeconomics</strong><br>
+    <strong>200 Marketing Principles</strong>
   </p>
-  <!--
-    image elememt, along with form elements, are something called "replaced content". 
-    That means they're not really part of your HTML, but supplied by the browser. 
-    When the browser renders your HTML and finds replaced content, 
-    it leaves a box for it, and then replaces that box with the actual content. 
-    This is why, for example, image and form elements can't have pseudo-elements: 
-    they get replaced when the browser replaces the entire element.
-  -->
-  <img src="./img/central-park.jpg" title="Central Park" alt="Central Park" width="240" />
-  <h3>Reviews</h3>
-  <div>
-    <p>By Richardo on <time>September 15, 2012</time></p>
-    <p>Easy on the HDR (High Dynamic Range) buddy.</p>
+
+  <hr style="margin: 20px 0; border: none; border-top: 1px solid #ccc;">
+
+  <!-- Resume Section -->
+  <div class="resume-link">
+    <a href="Andrew Sanft Resume.docx-2.pdf" target="_blank" rel="noopener noreferrer" style="color: #0066cc; font-weight: bold; font-size: 16px;">
+      View / Download My Resume (PDF)
+    </a>
   </div>
-  <div>
-    <p>By Susan on <time>October 1, 2012</time></p>
-    <p>I love Central Park.</p>
-  </div>
-  <p><small>Copyrigt &copy;2012 Share your Travels</small></p>
+
 </body>
 </html>
